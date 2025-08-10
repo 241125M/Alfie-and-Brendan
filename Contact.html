@@ -4,7 +4,8 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
-  <title>NYP Distance</title>
+  <title>NYP Distance Contact Us</title>
+  <script src="Contact.js"></script>
   <style>
     body {
       padding-top: 70px; /* Navigation Bar Spacing */
@@ -37,10 +38,17 @@
     </div>
   </nav>
 
-  <!-- Banner -->
-  <main class="container-fluid mt-5 mb-5 bg-secondary">
-    <div class="display-1 mt-5 mb-5 text-center text-dark">
-    Get in touch with us!
+  <!-- Hero Banner -->
+  <main 
+    class="d-flex align-items-center text-white mb-5" 
+    style="
+      background-image: url('https://ryzeabove.com.au/cdn/shop/articles/GPS_Smart_Watch_when_Running.jpg?v=1737506715');
+      background-size: cover;
+      background-position: center;
+      height: 600px;
+    ">
+    <div class="container text-center">
+      <h1 class="display-4 fw-bold">Get in touch with us!</h1>
     </div>
   </main>
 
@@ -70,7 +78,7 @@
     </div>
 
     <!-- Contact Form -->
-    <form class="mt-5 mb-5"  action="" method="post">
+    <form class="mt-5 mb-5"  action="ContactFormReceived.html" method="post">
     <label for="ContactFormName" class="form-label display-6">Name</label>
     <input type="text" class="form-control mb-3" id="ContactFormName" placeholder="Name" required="required">
 
