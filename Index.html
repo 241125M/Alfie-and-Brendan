@@ -9,16 +9,6 @@
     body {
       padding-top: 70px; /* Navigation Bar Spacing */
     }
-        #spinImage{
-      cursor: pointer;
-    }
-    @keyframes spin {
-      from { transform: rotate(0deg); }
-      to { transform: rotate(360deg); }
-    }
-    .spin {
-  animation: spin 1s linear;
-    }
   </style>
 </head>
 <body class="d-flex flex-column min-vh-100 bg-dark text-white">
@@ -42,9 +32,6 @@
         </li>
         <li class="nav-item">
           <a class="nav-link" href="JoinUs.html">Join us</a>
-        </li>
-        <li>
-          <img id="spinImage" src="Vedal.webp" alt="Spin Me" width="50">
         </li>
       </ul>
     </div>
@@ -88,7 +75,7 @@
         <img src="https://hips.hearstapps.com/hmg-prod/images/running-is-one-of-the-best-ways-to-stay-fit-royalty-free-image-1036780592-1553033495.jpg" class="d-block w-100" alt="Image 2">
       </div>
       <div class="carousel-item">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShxa-6xaChOIvSMYSC03RDKYucp6uc3MyclQ&s" class="d-block w-100" alt="Image 3">
+        <img src="https://www.verywellfit.com/thmb/dAxgATiA7Fv1yJ7gj8St5Z9c3pA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/tips-for-proper-running-form-4020227-2165-ef4e9ba9dadb4f6c95529a14ae035912.jpg" class="d-block w-100" alt="Image 3">
       </div>
     </div>
 
@@ -160,162 +147,6 @@
   </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
-  <title>NYP Distance</title>
-  <style>
-    body {
-      padding-top: 70px; /* Navigation Bar Spacing */
-    }
-  </style>
-</head>
-<body class="d-flex flex-column min-vh-100 bg-dark text-white">
 
-  <!-- Navigation bar -->
-  <nav class="navbar navbar-dark bg-dark fixed-top shadow-lg">
-    <div class="container">
-      <a class="navbar-brand" href="Index.html">NYP Distance</a>
-      <ul class="navbar-nav ms-auto d-flex flex-row">
-        <li class="nav-item me-3">
-          <a class="nav-link active" href="Index.html">Home</a>
-        </li>
-        <li class="nav-item me-3">
-          <a class="nav-link" href="Events.html">Events</a>
-        </li>
-        <li class="nav-item me-3">
-          <a class="nav-link" href="About.html">About</a>
-        </li>
-        <li class="nav-item me-3">
-          <a class="nav-link" href="Contact.html">Contact</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="JoinUs.html">Join us</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
-
-  <!-- Hero Banner -->
-  <main 
-    class="d-flex align-items-center text-white" 
-    style="
-      background-image: url('https://startfitness.co.uk/cdn/shop/files/1v2_Running_Hero_Collection_Main_Banner_2000_x_X_2000_x_780.webp?v=1712755765&width=1400');
-      background-size: cover;
-      background-position: center;
-      min-height: 600px;
-    ">
-    <div class="container text-center">
-      <h1 class="display-4 fw-bold">NYP Distance</h1>
-      <p class="lead mb-4">Run Far. Run Together.</p>
-    </div>
-</main>
-
-  <!-- Text -->
-  <div class="container my-5">
-    <div class="text-center display-6">
-    <p>Have you ever wanted to challenge your body to its very limits? In NYP Distance, we train hard to overcome our limits. Come join us train in long distance running.</p>
-    </div>
-</div>
-
-  <!-- Mini Gallery -->
-   <div id="IndexGallery" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#IndexGallery" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#IndexGallery" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#IndexGallery" data-bs-slide-to="2" aria-label="Slide 3"></button>
-    </div>
-    <!-- Images inside Gallery -->
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="https://www.nomeatathlete.com/wp-content/uploads/2012/03/running-feature-image.png" class="d-block w-100" alt="Image 1">
-      </div>
-      <div class="carousel-item">
-        <img src="https://hips.hearstapps.com/hmg-prod/images/running-is-one-of-the-best-ways-to-stay-fit-royalty-free-image-1036780592-1553033495.jpg" class="d-block w-100" alt="Image 2">
-      </div>
-      <div class="carousel-item">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShxa-6xaChOIvSMYSC03RDKYucp6uc3MyclQ&s" class="d-block w-100" alt="Image 3">
-      </div>
-    </div>
-
-    <!-- Next and Previous Buttons -->
-   <button class="carousel-control-prev" type="button" data-bs-target="#IndexGallery" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#IndexGallery" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
-
-  <!-- Upcoming Events -->
-    <section class="container my-5">
-    <h2 class="text-center mb-4">Upcoming Events</h2>
-    <div class="row flex-nowrap g-4 overflow-auto">
-
-
-    <div class="col-4">
-    <div class="card bg-dark text-white h-100 border-0 d-flex flex-column">
-        <img src="https://www.runningfront.com/wp-content/uploads/2024/04/How-to-Run-a-Faster-5K.webp" class="card-img-top">
-        <div class="card-body d-flex flex-column">
-        <h5 class="card-title">Saturday Bishan NYP 5KM Run</h5>
-        <p class="card-text">Join us this Saturday for a 5KM run in Bishan!</p>
-        <p class="card-text"><small>Date: Aug 16, 2025</small></p>
-        <div class="mt-auto">
-        <a href="JoinUs.html" class="btn btn-primary w-100">Join</a>
-    </div>
-    </div>
-    </div>
-    </div>
-
-    <div class="col-4">
-    <div class="card bg-dark text-white h-100 border-0 d-flex flex-column">
-        <img src="https://westoncreekathletics.org.au/wp-content/uploads/2022/08/62c4e83353f1c.jpg" class="card-img-top">
-        <div class="card-body d-flex flex-column">
-        <h5 class="card-title">Sunday Yio Chu Kang NYP 10KM Run</h5>
-        <p class="card-text">Join us this Sunday for a 10KM run in Yio Chu Kang!</p>
-        <p class="card-text"><small>Date: Aug 17, 2025</small></p>
-        <div class="mt-auto">
-        <a href="JoinUs.html" class="btn btn-primary w-100">Join</a>
-    </div>
-    </div>
-    </div>
-    </div>
-
-    <div class="col-4">
-    <div class="card bg-dark text-white h-100 border-0 d-flex flex-column">
-        <img src="https://images.ctfassets.net/7ajcefednbt4/3L9DDPPSZiCIBtTaKq3L3U/a08cbaa48d19a1111a0472c8a643934c/Marathon_runners___BABAROGA.jpg?fm=webp&w=2560" class="card-img-top">
-        <div class="card-body d-flex flex-column">
-        <h5 class="card-title">September Bishan NYP Marathon Run</h5>
-        <p class="card-text">Our September Marathon will held in Bishan. Come join us!</p>
-        <p class="card-text"><small>Date: Sep 13, 2025</small></p>
-        <div class="mt-auto">
-        <a href="JoinUs.html" class="btn btn-primary w-100">Join</a>
-    </div>
-    </div>
-    </div>
-    </div>
-    </section>
-
-  <!-- Footer -->
-  <footer class="text-white p-3 text-center" style="background-color: #000000;">
-    <div class="container">
-      <p>&copy; 2025 NYP Distance. All rights reserved.</p>
-    </div>
-  </footer>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-  <script>
-    const image = document.getElementById("spinImage");
-    image.addEventListener("click", () => {
-      image.classList.add("spin");
-      setTimeout(() => {image.classList.remove("spin")}, 1000)})
-  </script>
-</body>
-</html>
 </body>
 </html>

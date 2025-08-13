@@ -4,21 +4,13 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
-  <title>NYP Distance</title>
+  <link rel="stylesheet" href="CSS/AboutStyles.css"> 
+  <title>NYP Distance About Us</title>
   <style>
     body {
       padding-top: 70px; /* Navigation Bar Spacing */
-    }    
-    #spinImage{
-      cursor: pointer;
     }
-    @keyframes spin {
-      from { transform: rotate(0deg); }
-      to { transform: rotate(360deg); }
-    }
-    .spin {
-  animation: spin 1s linear;
-    }
+  
   </style>
 </head>
 <body class="d-flex flex-column min-vh-100 bg-dark text-white">
@@ -42,78 +34,114 @@
         </li>
         <li class="nav-item">
           <a class="nav-link" href="JoinUs.html">Join us</a>
-          <li>
-          <img id="spinImage" src="Vedal.webp" alt="Spin Me" width="50">
-        </li>
         </li>
       </ul>
     </div>
   </nav>
 
-    <!-- Banner -->
-  <main class="container-fluid mt-5 mb-5 bg-secondary">
-    <div class="display-1 mt-5 mb-5 text-center text-dark">
-    Who are we?
+   <!-- Hero Banner -->
+  <main 
+    class="d-flex align-items-center text-white mb-5" 
+    style="
+      background-image: url('https://images.unsplash.com/photo-1607962837359-5e7e89f86776?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cnVubmluZyUyMGdyb3VwfGVufDB8fDB8fHww');
+      background-size: cover;
+      background-position: center;
+      height: 600px;
+    ">
+    <div class="container text-center">
+      <h1 class="display-4 fw-bold">Who are we?</h1>
     </div>
   </main>
 
-   <!-- Main Message -->
-  <div class="container">
-    <div class="text-center h5 mb-4">
-      <p>Here at NYP Distance, we adhere to a set of values that guides us towards our mission.</p>
+<!-- Mission -->
+ <div class="container mb-5">
+  <h2 class="section-title text-center">Our Mission</h2>
+  <div class="row justify-content-center text-center">
+   <div class="col-md-8">
+    Here at NYP Distance, our mission is to inspire runners of all levels to challenge themselves through distance-based goals. Whether you're aiming for your first 5K or training for a marathon, we provide a supportive and motivating environment to help you go the extra mile. Our focus is on personal growth, endurance, and fostering a community of runners who push each other to be better every day.
+   </div>
+  </div>
+
+<!-- Values -->
+  <h2 class="section-title text-center mt-5 mb-4">Our Values</h2>
+  <div class="row text-center g-4">
+    <div class="col-md-4">
+      <img src="https://hips.hearstapps.com/hmg-prod/images/running-track-1667904802.jpg?crop=0.668xw:1.00xh;0.0714xw,0&resize=640:*" id="ValuesImageID" class="img-fluid w-100">
+      <h5 id="Value">Commitment</h5>
+      <p>Progress takes time, and every step counts. We show up consistently, stay disciplined, and hold ourselves accountable — because success is earned, not given.</p>
     </div>
 
-    <div class="display-4">
-     <p>Our Mission</p>
-    </div>
-     <div>
-      <p>Here at NYP Distance, our mission is to inspire runners of all levels to challenge themselves through distance-based goals. Whether you're aiming for your first 5K or training for a marathon, we provide a supportive and motivating environment to help you go the extra mile. Our focus is on personal growth, endurance, and fostering a community of runners who push each other to be better every day.</p>
-     </div>
-
-    <div class="display-4">
-      <p>Our Values</p>
-    </div>
-    <p>We follow 3 core values that guides our way.
-    </p>
-
-    <div class="display-6 m-2">
-      <p>Commitment</p>
-    </div>
-    <div class="m-2">
-      <p>We commit to our goals and each other.</p>
-    </div>
-     
-
-     <div class="display-6 m-2">
-      <p>Endurance</p>
-    </div>
-    <div class="m-2">
-      <p>We believe in pushing through barriers.</p>
+    <div class="col-md-4">
+      <img src="https://www.sciencefriday.com/wp-content/uploads/2024/10/NY-marathon.jpg" id="ValuesImageID" class="img-fluid w-100">
+      <h5 id="Value">Endurance</h5>
+      <p>We build both physical and mental resilience — pushing through fatigue, setbacks, and challenges with determination. Endurance helps us go the extra mile, both on the track and in life.</p>
     </div>
 
-     <div class="display-6 m-2">
-      <p>Community</p>
+    <div class="col-md-4">
+      <img src="https://www.thesfmarathon.com/wp-content/uploads/2024/02/shutterstock_583877869-1-e1708273737149.jpg" id="ValuesImageID" class="img-fluid w-100">
+      <h5 id="Value">Community</h5>
+      <p>Running is more than an individual sport — we train, support, and grow together. Every teammate plays a role in building a strong, inclusive, and encouraging environmen</p>
     </div>
-    <div class="m-2">
-      <p>We support and uplift each other.</p>
-    </div>
+  </div>
+  </div>
+  
 
-    <div class="display-4">
-     <p>Why us?</p>
-    </div>
-     <div class="mb-4">
-      <p>At NYP Distance, we're not just a running group - we're a supportive family that encourages everyone to achieve their personal best.</p>
-     </div>
+  <!-- Why Us? -->
+  <h2 class="section-title text-center mt-5 mb-4">Why Us?</h2>
+  <div class="justify-content-center text-center">
+   <div class="mb-5" id="WhyUsText">
+    At NYP Distance, we're not just a running group - we're a supportive family that encourages everyone to achieve their personal best.
+  </div>
+  </div>
 
   <!-- Meet the Members -->
-    <div class="display-4">
-     <p>Meet the Members</p>
-    </div>
-     <div class="mb-4">
-      <p>Meet the members of our team!</p>
-     </div>
-     </div>
+  <h2 class="section-title text-center mt-5 mb-4">Meet the Members</h2>
 
+  <div class="container">
+    <div class="row text-center">
+      <div class="col-md-3 col-sm-6 mb-5">
+        <div class="card h-100 w-100">
+          <img src="https://images.pexels.com/photos/1704488/pexels-photo-1704488.jpeg?cs=srgb&dl=pexels-sulimansallehi-1704488.jpg&fm=jpg" class="card-img-top" alt="Member Photo">
+          <div class="card-body">
+           <h5 class="card-title">Ryan Ong</h5>
+           <p class="card-text">President</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3 col-sm-6 mb-5">
+      <div class="card h-100 w-100">
+        <img src="https://media.istockphoto.com/id/1412905369/photo/asian-chinese-woman-walking-beside-riverbank-in-the-morning-with-smart-phone.jpg?s=612x612&w=0&k=20&c=w7lEwovMZTYViefBlYJ3RHRMlflPITL-fGmd_gN5Ig4=" class="card-img-top" alt="Member Photo">
+        <div class="card-body">
+          <h5 class="card-title">Sarah Tan</h5>
+          <p class="text-title">Vice President</p>
+        </div>
+      </div>
+   </div>
+
+   <div class="col-md-3 col-sm-6 mb-5">
+      <div class="card h-100 w-100">
+        <img src="https://t4.ftcdn.net/jpg/06/50/87/33/360_F_650873329_opjufnW5sGZosimTVibkyksxCPQHlPsl.jpg" class="card-img-top" alt="Member Photo">
+        <div class="card-body">
+          <h5 class="card-title">Arjun</h5>
+          <p class="text-title">Captain</p>
+        </div>
+      </div>
+   </div>
+
+   <div class="col-md-3 col-sm-6 mb-5">
+      <div class="card h-100 w-100">
+        <img src="https://t3.ftcdn.net/jpg/04/49/90/74/360_F_449907487_QrLn0cIQajy4fVWcQJSLDAXUBq1vvrYJ.jpg" class="card-img-top" alt="Member Photo">
+        <div class="card-body">
+          <h5 class="card-title">Lucas Lim</h5>
+          <p class="text-title">Vice Captain</p>
+        </div>
+      </div>
+   </div>
+
+   
+   </div>
+   </div>
 
 
   <!-- Footer -->
@@ -124,12 +152,7 @@
   </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-  <script>
-    const image = document.getElementById("spinImage");
-    image.addEventListener("click", () => {
-      image.classList.add("spin");
-      setTimeout(() => {image.classList.remove("spin")}, 1000)})
-  </script>
+
 
 </body>
 </html>

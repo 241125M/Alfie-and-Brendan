@@ -1,0 +1,24 @@
+.container {
+    font-size: 18px;
+}
+
+#WhyUsText {
+    font-size:18px;
+}
+
+.card img {
+  height: 300px;           /* Fixed height for consistency */
+  width: 100%;             /* Full width of the card */
+  object-fit: cover;       /* Crop to fit container without distortion */
+  object-position: center; /* Center the cropped image */
+}
+
+#ValuesImageID {
+    height: 80%;
+    width: 40%;
+    object-fit: cover;
+}
+
+#Value {
+    margin-top: 10px;
+}
